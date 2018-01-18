@@ -13,10 +13,10 @@
                 </a>
             </td>
             <td>
-                English
+                English (EN)
             </td>
             <td>
-                Persain
+                Persain (FA)
             </td>
         </tr>
         <tr>
