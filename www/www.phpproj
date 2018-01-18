@@ -1,0 +1,37 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>www</Name>
+    <ProjectGuid>94f7726f-3e49-4a5b-956b-380c61286691</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>www</AssemblyName>
+    <SpecificPageValue>html/index.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="html\index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database.sql" />
+    <Content Include="html\favicon.ico" />
+    <Content Include="html\secure\.htaccess" />
+    <Content Include="html\secure\DbPass.txt" />
+    <Content Include="html\Resource\General.png" />
+    <Content Include="html\Resource\Logo.png" />
+    <Content Include="VirtualHost.conf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="html\" />
+    <Folder Include="html\secure\" />
+    <Folder Include="html\Resource\" />
+  </ItemGroup>
+</Project>
