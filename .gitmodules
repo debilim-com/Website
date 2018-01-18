@@ -1,0 +1,3 @@
+[submodule "WebDeploy"]
+	path = WebDeploy
+	url = https://github.com/virtualmatador/WebDeploy.git
