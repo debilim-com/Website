@@ -21,7 +21,7 @@
         </tr>
         <tr>
             <td colspan="3">
-                <img style="width: 20em;height: 10em;" src="Resource/General.png" />
+                <img style="width: 40em;height: 20em;" src="Resource/General.png" />
             </td>
         </tr>
         <tr>
