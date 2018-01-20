@@ -1,2 +1,2 @@
-001 Branch=Develop
-002 Domain=debilim.run
+Branch=Develop
+Domain=debilim.run
