@@ -1,2 +1,2 @@
-001 Branch=master
-002 Domain=debilim.com
+Branch=master
+Domain=debilim.com
